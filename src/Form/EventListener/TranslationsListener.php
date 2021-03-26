@@ -43,7 +43,7 @@ class TranslationsListener implements EventSubscriberInterface
         $form = $event->getForm();
 
         if (null === $formParent = $form->getParent()) {
-            throw new \RuntimeException('Parent form missing');
+            return;
         }
 
         $formOptions = $form->getConfig()->getOptions();
