@@ -72,10 +72,5 @@
     },
     "autoload-dev": {
         "psr-4": { "A2lix\\TranslationFormBundle\\Tests\\": "tests/" }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.x-dev"
-        }
     }
 }
